@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Matcha Tea</title>
+    <link rel="stylesheet" href="matchatcontact.css"> <!-- Remplacez X par votre numéro -->
+</head>
+<body>
+    <header>
+        <h1>Matcha Tea</h1>
+        <nav>
+            <ul>
+                <li><a href="index3.html">Accueil</a></li>
+                <li><a href="vente.html">Vente</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="histoire.html">Histoire</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="compte.html">Compte Client</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-container">
+        <h2>Nous contacter</h2>
+        <p>Pour toute question ou demande, veuillez remplir le formulaire ci-dessous :</p>
+
+        <form action="submit_contact.php" method="POST">
+            <!-- Civilité -->
+            <label for="civilite">Civilité :</label>
+            <select id="civilite" name="civilite" required>
+                <option value="">-- Sélectionnez --</option>
+                <option value="Mr">Monsieur</option>
+                <option value="Mme">Madame</option>
+                <option value="Mlle">Mademoiselle</option>
+            </select>
+
+            <!-- Nom -->
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+            <!-- Prénom -->
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+
+            <!-- Email -->
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+            <!-- Message -->
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" placeholder="Votre message ici..." rows="5" required></textarea>
+
+            <!-- Bouton de validation -->
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+
+     <!-- Pied de page -->
+     <footer>
+        <p>&copy; 2025 Matcha Tea - Tous droits réservés. 
+    </footer>
+</body>
+</html>
+

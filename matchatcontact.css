@@ -1,0 +1,122 @@
+/* Fichier CSS pour le membre X */
+.
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3c763d; /* Vert matcha */
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+h1 { /*Apparence du titre de l'accueil*/
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-left: 0%;
+    font-size: 60px;
+    margin-top: 0;
+    text-align: center;
+    color: #49dd2c;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Conteneur de contact */
+.contact-container {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.contact-container p {
+    margin-bottom: 2rem;
+    color: #000000;
+}
+
+/* Styles du formulaire */
+form label {
+    display: block;
+    margin-top: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    background-color: #e3e3e3;
+    border: 1px solid #444;
+    color: #000000;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: #3c763d; /* Vert matcha */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e5730;
+}
+
+/* Pied de page */
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+}
